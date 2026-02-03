@@ -25,7 +25,7 @@ export const nis2Stages: Stage[] = [
     subtitle: "Determinar se a organização está abrangida",
     icon: Building2,
     colorClass: "stage-1",
-    overview: "A primeira etapa consiste em identificar se a sua organização se enquadra no âmbito da NIS2, considerando o setor de atividade, dimensão e criticidade dos serviços prestados.",
+    overview: "Nos termos do DL 125/2025, a primeira etapa consiste em identificar se a sua organização se enquadra no âmbito do novo regime de cibersegurança, considerando o setor de atividade, dimensão e criticidade dos serviços prestados.",
     timeline: "1-2 meses",
     responsibles: ["Direção Geral", "Jurídico", "Compliance"],
     procedures: [
@@ -67,7 +67,7 @@ export const nis2Stages: Stage[] = [
     subtitle: "Estruturar a gestão de cibersegurança",
     icon: Users,
     colorClass: "stage-2",
-    overview: "Estabelecer uma estrutura de governança clara com responsabilidades definidas para a gestão de riscos de cibersegurança, incluindo o envolvimento obrigatório dos órgãos de direção.",
+    overview: "Conforme exigido pelo DL 125/2025, estabelecer uma estrutura de governança clara com responsabilidades definidas para a gestão de riscos de cibersegurança, incluindo o envolvimento obrigatório dos órgãos de direção.",
     timeline: "2-3 meses",
     responsibles: ["Conselho de Administração", "CISO", "Recursos Humanos"],
     procedures: [
@@ -109,7 +109,7 @@ export const nis2Stages: Stage[] = [
     subtitle: "Avaliar e mitigar riscos de cibersegurança",
     icon: AlertTriangle,
     colorClass: "stage-3",
-    overview: "Implementar um processo sistemático de gestão de riscos que abranja a identificação, análise, avaliação e tratamento de riscos de cibersegurança de forma contínua.",
+    overview: "O DL 125/2025 exige a implementação de um processo sistemático de gestão de riscos que abranja a identificação, análise, avaliação e tratamento de riscos de cibersegurança de forma contínua.",
     timeline: "3-4 meses",
     responsibles: ["CISO", "Gestão de Riscos", "TI"],
     procedures: [
@@ -161,7 +161,7 @@ export const nis2Stages: Stage[] = [
     subtitle: "Implementar controlos técnicos e organizacionais",
     icon: Shield,
     colorClass: "stage-4",
-    overview: "Implementar as medidas mínimas de segurança exigidas pela NIS2, abrangendo políticas, procedimentos e controlos técnicos proporcionais aos riscos identificados.",
+    overview: "Implementar as medidas mínimas de segurança exigidas pelo DL 125/2025, abrangendo políticas, procedimentos e controlos técnicos proporcionais aos riscos identificados.",
     timeline: "4-6 meses",
     responsibles: ["CISO", "TI", "Operações"],
     procedures: [
@@ -214,7 +214,7 @@ export const nis2Stages: Stage[] = [
     subtitle: "Detetar, responder e reportar incidentes",
     icon: AlertTriangle,
     colorClass: "stage-5",
-    overview: "Estabelecer capacidades robustas de deteção e resposta a incidentes, incluindo os procedimentos de notificação obrigatória às autoridades dentro dos prazos definidos.",
+    overview: "Estabelecer capacidades robustas de deteção e resposta a incidentes, incluindo os procedimentos de notificação obrigatória ao CNCS dentro dos prazos definidos pelo DL 125/2025.",
     timeline: "2-3 meses",
     responsibles: ["CSIRT", "CISO", "Comunicação"],
     procedures: [
@@ -266,7 +266,7 @@ export const nis2Stages: Stage[] = [
     subtitle: "Demonstrar e manter conformidade",
     icon: ClipboardCheck,
     colorClass: "stage-6",
-    overview: "Estabelecer processos de verificação e demonstração de conformidade com a NIS2, preparando a organização para inspeções e auditorias das autoridades competentes.",
+    overview: "Estabelecer processos de verificação e demonstração de conformidade com o DL 125/2025, preparando a organização para inspeções e auditorias do CNCS e autoridades competentes.",
     timeline: "Contínuo",
     responsibles: ["Compliance", "CISO", "Auditoria Interna"],
     procedures: [
@@ -274,7 +274,7 @@ export const nis2Stages: Stage[] = [
         title: "Registo e Documentação",
         description: "Manter evidências de conformidade",
         details: [
-          "Registo junto da autoridade competente nacional",
+          "Registo junto do CNCS (Centro Nacional de Cibersegurança)",
           "Documentação completa de políticas e procedimentos",
           "Registos de formações e sensibilização",
           "Evidências de avaliações de risco e tratamento"
@@ -285,7 +285,7 @@ export const nis2Stages: Stage[] = [
         description: "Verificar conformidade regularmente",
         details: [
           "Programa anual de auditorias internas",
-          "Checklist de requisitos NIS2",
+          "Checklist de requisitos DL 125/2025",
           "Acompanhamento de não-conformidades",
           "Relatórios à direção"
         ]
