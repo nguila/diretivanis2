@@ -10,27 +10,27 @@ const Header = () => {
           </div>
           <div>
             <h1 className="text-3xl md:text-4xl font-bold">
-              Diretiva NIS2
+              Regime de Cibersegurança
             </h1>
             <p className="text-primary-foreground/80 text-lg">
-              Network and Information Security Directive
+              Decreto-Lei n.º 125/2025 | Diretiva NIS2
             </p>
           </div>
         </div>
         
         <div className="animate-slide-up" style={{ animationDelay: "0.2s" }}>
           <p className="text-xl md:text-2xl font-light max-w-3xl leading-relaxed">
-            Estrutura de implementação para conformidade com a diretiva europeia de cibersegurança
+            Novo regime jurídico da cibersegurança - Transposição da Diretiva (UE) 2022/2555
           </p>
           
           <div className="mt-8 flex flex-wrap gap-4">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
-              <span className="text-sm opacity-80">Prazo de Transposição</span>
-              <p className="font-semibold">17 Outubro 2024</p>
+              <span className="text-sm opacity-80">Diploma</span>
+              <p className="font-semibold">DL 125/2025, 4 Dez</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
-              <span className="text-sm opacity-80">Aplicação</span>
-              <p className="font-semibold">União Europeia</p>
+              <span className="text-sm opacity-80">Diretiva UE</span>
+              <p className="font-semibold">2022/2555 (NIS2)</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
               <span className="text-sm opacity-80">Etapas</span>
