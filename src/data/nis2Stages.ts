@@ -25,7 +25,7 @@ export const nis2Stages: Stage[] = [
     subtitle: "Determinar se a organização está abrangida",
     icon: Building2,
     colorClass: "stage-1",
-    overview: "Nos termos do DL 125/2025, a primeira etapa consiste em identificar se a sua organização se enquadra no âmbito do novo regime de cibersegurança, considerando o setor de atividade, dimensão e criticidade dos serviços prestados.",
+    overview: "Nos termos do DL 125/2025, a primeira etapa consiste em identificar se a sua organização se enquadra no âmbito da nova diretiva da União Europeia sobre cibersegurança, considerando o setor de atividade, dimensão e criticidade dos serviços prestados.",
     timeline: "1-2 meses",
     responsibles: ["Direção Geral", "Jurídico", "Compliance"],
     procedures: [
