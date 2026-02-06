@@ -1,16 +1,24 @@
 import { Shield } from "lucide-react";
 import euFlag from "@/assets/eu-flag.png";
+import ptFlag from "@/assets/pt-flag.png";
 
 const Header = () => {
   return (
     <header className="hero-gradient text-primary-foreground py-12 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center gap-4 mb-6 animate-fade-in">
-          <img 
-            src={euFlag} 
-            alt="Bandeira da União Europeia" 
-            className="w-14 h-10 object-cover rounded shadow-md"
-          />
+          <div className="flex items-center gap-2">
+            <img 
+              src={euFlag} 
+              alt="Bandeira da União Europeia" 
+              className="w-14 h-10 object-cover rounded shadow-md"
+            />
+            <img 
+              src={ptFlag} 
+              alt="Bandeira de Portugal" 
+              className="w-14 h-10 object-cover rounded shadow-md"
+            />
+          </div>
           <div className="p-3 bg-white/10 backdrop-blur-sm rounded-xl">
             <Shield className="w-10 h-10" />
           </div>
