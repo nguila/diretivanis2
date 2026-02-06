@@ -10,7 +10,7 @@ const Header = () => {
           </div>
           <div>
             <h1 className="text-3xl md:text-4xl font-bold">
-              Regime de Cibersegurança
+              Diretiva da União Europeia sobre Cibersegurança
             </h1>
             <p className="text-primary-foreground/80 text-lg">
               Decreto-Lei n.º 125/2025 | Diretiva NIS2
