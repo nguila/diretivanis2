@@ -69,7 +69,7 @@ const HeroSection = () => {
                 </Button>
               </Link>
               <Link to="/checklist">
-                <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 gap-2 rounded-xl">
+                <Button size="lg" variant="outline" className="border-primary/30 text-primary bg-white hover:bg-white/90 gap-2 rounded-xl shadow-lg">
                   <FileText className="w-4 h-4" />
                   Checklist Interativa
                 </Button>
