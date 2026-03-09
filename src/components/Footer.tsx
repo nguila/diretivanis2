@@ -83,10 +83,10 @@ const Footer = () => {
 
         <div className="border-t border-border pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground text-center sm:text-left">
-            © 2025 NIS2 Portugal. Guia de referência. Consulte sempre especialistas jurídicos para total conformidade.
+            © 2026 NIS2 Portugal. Guia de referência. Consulte sempre especialistas jurídicos para total conformidade.
           </p>
           <p className="text-xs text-muted-foreground">
-            Atualizado: Dezembro 2025
+            Atualizado: Março 2026
           </p>
         </div>
       </div>
